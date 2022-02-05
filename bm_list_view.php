@@ -67,7 +67,7 @@ if ($status === false) {
                 <div class="navbar-header">
                 <div class="navbar-header"><a class="navbar-brand" href="index.php">TOP</a></div>
                 <div class="navbar-header"><a class="navbar-brand" href="user_list.php">ユーザー一覧</a></div>
-                <div class="navbar-header"><a class="navbar-brand" href="bm_list_view.php">BOOK一覧</a></div>
+                <div class="navbar-header"><a class="navbar-brand" href="bm_list_view.php">店舗一覧</a></div>
                 </div>
             </div>
         </nav>
