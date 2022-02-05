@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- ホスト: localhost:8889
--- 生成日時: 2022 年 2 月 05 日 00:33
+-- 生成日時: 2022 年 2 月 05 日 13:22
 -- サーバのバージョン： 5.7.34
 -- PHP のバージョン: 7.4.21
 
@@ -78,10 +78,10 @@ CREATE TABLE `gs_bm_table` (
 --
 
 INSERT INTO `gs_bm_table` (`id`, `bookname`, `url`, `comment`, `indate`) VALUES
-(2, '邂逅の森森', 'https://www.amazon.co.jp/%E9%82%82%E9%80%85%E3%81%AE%E6%A3%AE-%E6%96%87%E6%98%A5%E6%96%87%E5%BA%AB-%E7%86%8A%E8%B0%B7-%E9%81%94%E4%B9%9F/dp/4167724014', '読んだ後、泣', '2022-02-05 01:45:26'),
-(10, '吾輩は猫である', 'kkk', 'bb', '2022-01-29 16:14:29'),
-(11, '富士日記', 'tt', 'たんたんとした日常の風景を綴るエッセイ\r\nです', '2022-01-29 16:14:00'),
-(12, '熱源', 'https://www.amazon.co.jp/%E3%80%90%E7%AC%AC162%E5%9B%9E-%E7%9B%B4%E6%9C%A8%E8%B3%9E%E5%8F%97%E8%B3%9E%E4%BD%9C%E3%80%91%E7%86%B1%E6%BA%90-%E5%B7%9D%E8%B6%8A-%E5%AE%97%E4%B8%80/dp/4163910417/ref=pd_lpo_3?pd_rd_i=4163910417&psc=1', '第162回-直木賞受賞作　川越-宗', '2022-01-29 16:16:48');
+(2, '邂逅の森', 'https://www.amazon.co.jp/%E9%82%82%E9%80%85%E3%81%AE%E6%A3%AE-%E6%96%87%E6%98%A5%E6%96%87%E5%BA%AB-%E7%86%8A%E8%B0%B7-%E9%81%94%E4%B9%9F/dp/4167724014', '読んだ後、泣', '2022-02-05 22:07:06'),
+(11, '富士日記', 'tt', 'たんたんとした日常の風景を綴るエッセイ\r\nです', '2022-02-05 22:07:18'),
+(13, 'Dr.foot', 'https://dr-foot.co.jp/', '足裏専門', '2022-02-05 10:41:00'),
+(14, 'AELU', 'https://www.aelu.jp/', 'フレンチ系レストラン', '2022-02-05 22:21:24');
 
 -- --------------------------------------------------------
 
@@ -117,10 +117,9 @@ CREATE TABLE `gs_user_table` (
 
 INSERT INTO `gs_user_table` (`id`, `name`, `lid`, `lpw`, `kanri_flg`, `life_flg`) VALUES
 (1, 'kumakura', 'real', 'pzx', 0, 0),
-(3, 'hogehoge', 'hoge', 'zzz', 0, 0),
-(4, 'kumakura02', 'real', 'zzz', 0, 0),
 (5, 'kumakura', 'real', 'pzxoo', 0, 0),
-(6, 'kumakura', 'test', 'test', 0, 0);
+(6, 'kumakura', 'test', 'test', 0, 0),
+(7, 'kula', 'kula', 'kula', 0, 0);
 
 --
 -- ダンプしたテーブルのインデックス
@@ -158,13 +157,13 @@ ALTER TABLE `gs_an_table`
 -- テーブルの AUTO_INCREMENT `gs_bm_table`
 --
 ALTER TABLE `gs_bm_table`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- テーブルの AUTO_INCREMENT `gs_user_table`
 --
 ALTER TABLE `gs_user_table`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
