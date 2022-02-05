@@ -30,7 +30,7 @@
     <form method="POST" action="insert.php">
         <div class="jumbotron">
             <fieldset>
-                <legend>フリーアンケート</legend>
+                <legend>おすすめのお店を登録</legend>
                 <label>店舗名：<input type="text" name="bookname"></label><br>
                 <label>URL：<input type="url" name="url"></label><br>
                 <label>コメント：<textarea  rows="4" cols="40" name="comment"></textarea></label><br>
