@@ -1,13 +1,5 @@
 <?php
 
-/**
- * １．PHP
- * [ここでやりたいこと]
- * まず、クエリパラメータの確認 = GETで取得している内容を確認する
- * イメージは、select.phpで取得しているデータを一つだけ取得できるようにする。
- * →select.phpのPHP<?php ?>の中身をコピー、貼り付け
- * ※SQLとデータ取得の箇所を修正します。
- */
 
 
 $id = $_GET['id'];
@@ -32,14 +24,7 @@ if ($status === false) {
 }
 // var_dump($view);
 ?>
-<!--
-２．HTML
-以下にindex.phpのHTMLをまるっと貼り付ける！
-(入力項目は「登録/更新」はほぼ同じになるから)
-※form要素 input type="hidden" name="id" を１項目追加（非表示項目）
-※form要素 action="update.php"に変更
-※input要素 value="ここに変数埋め込み"
--->
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -69,9 +54,9 @@ if ($status === false) {
         <div class="jumbotron">
             <fieldset>
             <legend>詳細画面</legend>
-                <label>書籍名：<p><?= $view['bookname'] ?></p><br>
-                <label>書籍URL：<p><?= $view['url'] ?>></p><br>
-                <label>書籍コメント：<textarea name="comment" rows="4" cols="40"><?= $view['comment'] ?></textarea></label><br>
+                <label>店舗名：<p><?= $view['bookname'] ?></p><br>
+                <label>URL：<p><?= $view['url'] ?>></p><br>
+                <label>コメント：<textarea name="comment" rows="4" cols="40"><?= $view['comment'] ?></textarea></label><br>
                 <br>
                 <input type="hidden" name="id" value=<?= $view['id'] ?>><br>
                 

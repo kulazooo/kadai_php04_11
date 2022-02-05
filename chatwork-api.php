@@ -1,13 +1,13 @@
 <?php
     header("Content-type: text/html; charset=utf-8");
      
-    $api_key = "********************************"; // APIキー
+    $api_key = "597220aeaf345b47fb5db2ff642d3b84"; // APIキー
     $room_id = 260664689; // ルームID
     $url = "https://api.chatwork.com/v2/rooms/249432049/messages"; // API URL
      
     // 送信パラメーター
     $params = array(
-        'body' => '新しい本が登録されました' // メッセージ内容
+        'body' => '店舗が登録されました' // メッセージ内容
     );
      
     // オプション設定

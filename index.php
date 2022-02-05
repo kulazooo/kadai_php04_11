@@ -31,9 +31,9 @@
         <div class="jumbotron">
             <fieldset>
                 <legend>フリーアンケート</legend>
-                <label>書籍名：<input type="text" name="bookname"></label><br>
-                <label>書籍URL：<input type="url" name="url"></label><br>
-                <label>書籍コメント：<textarea  rows="4" cols="40" name="comment"></textarea></label><br>
+                <label>店舗名：<input type="text" name="bookname"></label><br>
+                <label>URL：<input type="url" name="url"></label><br>
+                <label>コメント：<textarea  rows="4" cols="40" name="comment"></textarea></label><br>
                 <input type="submit" value="送信">
             </fieldset>
         </div>

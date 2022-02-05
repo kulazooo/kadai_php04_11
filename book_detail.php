@@ -55,9 +55,9 @@ if ($status === false) {
         <div class="jumbotron">
             <fieldset>
             <legend>詳細画面</legend>
-                <label>書籍名：<p><?= $view['bookname'] ?></p><br>
-                <label>書籍URL：<p><?= $view['url'] ?></p><br>
-                <label>書籍コメント：<p><?= $view['comment'] ?></p><br>
+                <label>店舗名：<p><?= $view['bookname'] ?></p><br>
+                <label>URL：<p><?= $view['url'] ?></p><br>
+                <label>コメント：<p><?= $view['comment'] ?></p><br>
                 <br>
                 <input type="hidden" name="id" value=<?= $view['id'] ?>><br> 
             </fieldset>

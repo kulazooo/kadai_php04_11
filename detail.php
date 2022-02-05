@@ -71,9 +71,9 @@ if ($status === false) {
         <div class="jumbotron">
             <fieldset>
             <legend>詳細画面</legend>
-                <label>書籍名：<input type="text" name="bookname" value=<?= $view['bookname'] ?>></label><br>
-                <label>書籍URL：<input type="text" name="url" value=<?= $view['url'] ?>></label><br>
-                <label>書籍コメント：<textarea name="comment" rows="4" cols="40"><?= $view['comment'] ?></textarea></label><br>
+                <label>店舗名：<input type="text" name="bookname" value=<?= $view['bookname'] ?>></label><br>
+                <label>URL：<input type="text" name="url" value=<?= $view['url'] ?>></label><br>
+                <label>コメント：<textarea name="comment" rows="4" cols="40"><?= $view['comment'] ?></textarea></label><br>
                 <br>
                 <input type="hidden" name="id" value=<?= $view['id'] ?>><br>
                 <input type="submit" value="更新">
