@@ -31,7 +31,7 @@ if ($status === false) {
         $view .= '：' . $result['name'];
         $view .= '</a>';
 
-        $view .= '<a href="delete.php?id=' . $result['id'] . '">';
+        $view .= '<a href="delete_user.php?id=' . $result['id'] . '">';
         $view .= '[ 削除 ]';
         $view .= '</a>';
 

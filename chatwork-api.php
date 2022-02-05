@@ -1,7 +1,7 @@
 <?php
     header("Content-type: text/html; charset=utf-8");
      
-    $api_key = "*****"; // APIキー
+    $api_key = "597220aeaf345b47fb5db2ff642d3b84"; // APIキー
     $room_id = 260664689; // ルームID
     $url = "https://api.chatwork.com/v2/rooms/249432049/messages"; // API URL
      
@@ -28,3 +28,6 @@
      
     // 結果出力
     var_dump($result);
+
+    header("Location: index.php");
+exit();
