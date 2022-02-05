@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- ホスト: localhost:8889
--- 生成日時: 2022 年 2 月 05 日 13:22
+-- 生成日時: 2022 年 2 月 05 日 14:01
 -- サーバのバージョン： 5.7.34
 -- PHP のバージョン: 7.4.21
 
@@ -81,7 +81,11 @@ INSERT INTO `gs_bm_table` (`id`, `bookname`, `url`, `comment`, `indate`) VALUES
 (2, '邂逅の森', 'https://www.amazon.co.jp/%E9%82%82%E9%80%85%E3%81%AE%E6%A3%AE-%E6%96%87%E6%98%A5%E6%96%87%E5%BA%AB-%E7%86%8A%E8%B0%B7-%E9%81%94%E4%B9%9F/dp/4167724014', '読んだ後、泣', '2022-02-05 22:07:06'),
 (11, '富士日記', 'tt', 'たんたんとした日常の風景を綴るエッセイ\r\nです', '2022-02-05 22:07:18'),
 (13, 'Dr.foot', 'https://dr-foot.co.jp/', '足裏専門', '2022-02-05 10:41:00'),
-(14, 'AELU', 'https://www.aelu.jp/', 'フレンチ系レストラン', '2022-02-05 22:21:24');
+(14, 'AELU', 'https://www.aelu.jp/', 'フレンチ系レストラン', '2022-02-05 22:21:24'),
+(15, '寿司つぼみ', 'https://tabelog.com/tokyo/A1317/A131701/13221782/', '寿司', '2022-02-05 22:39:39'),
+(16, 'こぐま商店', 'https://tabelog.com/tokyo/A1317/A131701/13221782/', 'こぐま', '2022-02-05 22:42:13'),
+(17, 'test', 'https://tabelog.com/tokyo/A1317/A131701/13221782/', 'test', '2022-02-05 22:47:11'),
+(18, '鮨 つきうだ', 'https://tabelog.com/tokyo/A1317/A131701/13199689/', 'うまい', '2022-02-05 23:00:24');
 
 -- --------------------------------------------------------
 
@@ -157,7 +161,7 @@ ALTER TABLE `gs_an_table`
 -- テーブルの AUTO_INCREMENT `gs_bm_table`
 --
 ALTER TABLE `gs_bm_table`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- テーブルの AUTO_INCREMENT `gs_user_table`
